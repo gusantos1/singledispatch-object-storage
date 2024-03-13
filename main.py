@@ -14,6 +14,7 @@ ENV_IBM_ENDPOINT = os.environ.get('IBM_ENDPOINT')
 ENV_IBM_API_KEY_ID = os.environ.get('IBM_API_KEY_ID')
 ENV_IBM_INSTANCE_CRN = os.environ.get('IBM_INSTANCE_CRN')
 
+
 despachante = Despachante()
 
 with open('exemplo.json', 'rb') as dado:
